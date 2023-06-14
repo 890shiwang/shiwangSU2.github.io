@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+    <section class="sub-header">
+        <nav>
+
+
+
+            <herf class="index html"> <img src="./Assests/NEW_LOGO_4-removebg-preview.png" alt="college"></herf>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+            </div>
+
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1 class="lol">Our Certificate & Online Programs For 2023 </h1>
+
+
+
+    </section>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="./Assests/certificate.jpg">
+                <h2>Our Certificate & Online Program For 2023</h2>
+                <p>College Survival Tips: Share practical advice and tips for navigating college life, such as studying effectively, managing time, staying organized, and maintaining a healthy work-life balance.</p>
+                <br>
+                <p>
+                Student Budgeting and Finance: Offer tips and strategies for managing finances as a college student, including budgeting, saving money on textbooks, finding scholarships and grants, and part-time job opportunities. 
+                </p>
+                <br>
+                <p>
+                College Application and Admission Process: Provide guidance and insights into the college application process, including tips for writing application essays, preparing for interviews, and selecting the right college or university.
+                </p>
+                <br>
+                <p>
+                College Major and Career Exploration: Explore different college majors and their career prospects, providing insights into various fields of study, potential career paths, and the skills and qualifications required.
+                </p>
+                <br>
+                <p>
+                Study Abroad Experiences: Share personal experiences and advice for students interested in studying abroad, including tips on choosing a program, navigating cultural differences, and making the most of the international experience.
+                </p>
+                <div class="comment-box">
+                    <h3> Leave a Comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter name">
+                        <input type="Email" placeholder="Enter Email"> 
+                        <textarea rows="5" placeholder="Your Comment"></textarea> 
+                        <button type="submit" class="hero-btn red-btn"  >Post Comment</button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span> Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span> Data Science</span>
+                    <span>30</span>
+                </div>
+                <div>
+                    <span> Machine Learning</span>
+                    <span>13</span>
+                </div>
+                <div>
+                    <span>Java </span>
+                    <span> 15</span>
+                </div>
+                <div>
+                    <span> Computer Science</span>
+                    <span>18</span>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Welcome to shiwang's university , where excellence in education meets a nurturing and inclusive learning environment. As a prestigious institution, we are committed to providing a transformative educational experience that empowers students to thrive academically, personally, and professionally..</p>
+        <div class="icon">
+            <i class=" fa fa-facebook"></i>
+            <i class=" fa fa-twitter"></i>
+            <i class=" fa fa-instagram"></i>
+            <i class=" fa fa-linkedin"></i>
+        </div>
+
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
